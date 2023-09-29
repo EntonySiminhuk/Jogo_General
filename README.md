@@ -8,7 +8,7 @@ General é um jogo de dados para dois ou mais jogadores. Para jogar General são
 Para este trabalho, as regras do jogo General serão simplificadas e o campeonato poderá ser realizado desde que exista ao menos um jogador (humano ou maquina). A aplicação poderá executar n (indeterminadas) rodadas para os jogadores (humanos ou maquinas) participantes do Campeonato do Jogo General. Em cada rodada, cada jogador (humano ou maquina), por sua vez,joga os dados e, conforme o resultado obtido, marca a jogada prevista em sua cartela. Uma vez marcada, aquela jogada não poderá ser repetida pelo mesmo jogador até o final da rodada.
 
 ## Regras básicas:
-# teste
+
 *(1)* Sendo 13 o número de jogadas possíveis e 13 o número máximo de linhas para cada coluna na cartela de marcação, uma rodada consiste de 13 jogadas para cada jogador.
 
 *(2)* Cada jogador (humano ou maquina), em sua vez, tem apenas uma chance de arremessar os dados.
