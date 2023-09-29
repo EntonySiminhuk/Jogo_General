@@ -32,7 +32,7 @@ Para este trabalho, as regras do jogo General serão simplificadas e o campeonat
 
   <strong>General (G):<strong> cinco dados marcando o mesmo número (por exemplo: 4-4-4-4-4). Vale 50 pontos.
 
-  <p><strong>Jogada aleatória (X):<strong></p> qualquer combinação. Vale a soma dos 5 dados. Por exemplo: 1-4-4-5-6 vale 20 pontos.
+  *Jogada aleatória (X):* qualquer combinação. Vale a soma dos 5 dados. Por exemplo: 1-4-4-5-6 vale 20 pontos.
 
   (4)  O resultado deverá ser mostrado na forma de cartela, na coluna do jogador e na linha correspondente à jogada. Aquela linha (e portanto aquela jogada) não poderá mais ser utilizada pelo jogador na mesma rodada
 
