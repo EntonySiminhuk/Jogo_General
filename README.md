@@ -1,4 +1,4 @@
-## Objetivo
+## Objetivo Desse Projeto
 
 Este é um projeto que foi realizado como trabalho da faculdade para a matéria de Programação Orienteda a Objeto, ministrada pela professora Luciene de Oliveira Marin.
 
@@ -32,7 +32,7 @@ Para este trabalho, as regras do jogo General serão simplificadas e o campeonat
 
   <strong>General (G):<strong> cinco dados marcando o mesmo número (por exemplo: 4-4-4-4-4). Vale 50 pontos.
 
-  <strong>Jogada aleatória (X):<strong>  qualquer combinação. Vale a soma dos 5 dados. Por exemplo: 1-4-4-5-6 vale 20 pontos.
+  <p><strong>Jogada aleatória (X):<strong>  qualquer combinação. Vale a soma dos 5 dados. Por exemplo: 1-4-4-5-6 vale 20 pontos.</p>
 
   (4)  O resultado deverá ser mostrado na forma de cartela, na coluna do jogador e na linha correspondente à jogada. Aquela linha (e portanto aquela jogada) não poderá mais ser utilizada pelo jogador na mesma rodada
 
@@ -45,3 +45,7 @@ Para este trabalho, as regras do jogo General serão simplificadas e o campeonat
 
 ## Diagrama UML
 <img src="\image\ClasseUML.png">
+
+
+## Equipe
+Entony Cesar Siminhuk
