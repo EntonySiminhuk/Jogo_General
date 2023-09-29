@@ -47,4 +47,5 @@ Para este trabalho, as regras do jogo General serão simplificadas e o campeonat
 <img src="\image\ClasseUML.png">
 
 ## Equipe
-Entony Cesar Siminhuk
+Entony Cesar Siminhuk;
+Artur Lisboa;
