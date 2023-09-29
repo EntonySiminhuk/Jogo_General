@@ -9,11 +9,11 @@ Para este trabalho, as regras do jogo General serão simplificadas e o campeonat
 
 ## Regras básicas:
 
-*(1)* Sendo 13 o número de jogadas possíveis e 13 o número máximo de linhas para cada coluna na cartela de marcação, uma rodada consiste de 13 jogadas para cada jogador.
+**(1)** Sendo 13 o número de jogadas possíveis e 13 o número máximo de linhas para cada coluna na cartela de marcação, uma rodada consiste de 13 jogadas para cada jogador.
 
-*(2)* Cada jogador (humano ou maquina), em sua vez, tem apenas uma chance de arremessar os dados.
+**(2)** Cada jogador (humano ou maquina), em sua vez, tem apenas uma chance de arremessar os dados.
 
-*(3)* O resultado obtido ao final do arremesso deve ser classificado, pelo próprio jogador, como uma das seguintes 13 possibilidades:
+**(3)** O resultado obtido ao final do arremesso deve ser classificado, pelo próprio jogador, como uma das seguintes 13 possibilidades:
 
   **Jogada 1:** um certo número de dados (de 0 a 5) marcando o número 1; sendo que a jogada vale mais pontos conforme a quantidade de dados que marcarem o n´umero 1.
   Por exemplo: 1-1-1-4-5 vale 3 pontos.
@@ -34,11 +34,11 @@ Para este trabalho, as regras do jogo General serão simplificadas e o campeonat
 
   **Jogada aleatória (X):** qualquer combinação. Vale a soma dos 5 dados. Por exemplo: 1-4-4-5-6 vale 20 pontos.
 
-*(4)*  O resultado deverá ser mostrado na forma de cartela, na coluna do jogador e na linha correspondente à jogada. Aquela linha (e portanto aquela jogada) não poderá mais ser utilizada pelo jogador na mesma rodada
+**(4)**  O resultado deverá ser mostrado na forma de cartela, na coluna do jogador e na linha correspondente à jogada. Aquela linha (e portanto aquela jogada) não poderá mais ser utilizada pelo jogador na mesma rodada
 
-*(5)* Se um determinado resultado não cumprir os requisitos para a jogada escolhida, o jogador zera a respectiva jogada. E ainda, se um determinado resultado não puder ser classificado como nenhuma das jogadas ainda restantes para aquele jogador, ele deverá escolher qual das jogadas restantes será descartada, marcando 0 (zero) para a jogada correspondente.
+**(5)** Se um determinado resultado não cumprir os requisitos para a jogada escolhida, o jogador zera a respectiva jogada. E ainda, se um determinado resultado não puder ser classificado como nenhuma das jogadas ainda restantes para aquele jogador, ele deverá escolher qual das jogadas restantes será descartada, marcando 0 (zero) para a jogada correspondente.
 
-*(6)* Ao final de 13 rodadas, com a cartela toda preenchida, somam-se os valores de cada coluna,e o jogador que obtiver mais pontos será considerado o vencedor.
+**(6)** Ao final de 13 rodadas, com a cartela toda preenchida, somam-se os valores de cada coluna,e o jogador que obtiver mais pontos será considerado o vencedor.
 
 ## Cartela de Marcação
 <img src="\image\tabela.png">
