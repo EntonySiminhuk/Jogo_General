@@ -1,6 +1,3 @@
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.ObjectInputStream;
 import java.util.Scanner;
 
 public class usaCampeonato {
@@ -51,7 +48,7 @@ public class usaCampeonato {
                     break;
                 case 5://gravar dados
                     j.gravar_arquivo();
-                    System.out.println("Arquivo Gerando");
+                    System.out.println("Arquivo Gerado");
                     break;
                 case 6:
                     j.lerDoArquivo();
@@ -66,5 +63,6 @@ public class usaCampeonato {
                 }
             }
             while(opcao != 7);
+            //input.close();
     }
 }

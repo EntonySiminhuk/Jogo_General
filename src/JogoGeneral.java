@@ -3,18 +3,18 @@ public class JogoGeneral implements Serializable{
     private Dado[] dados = new Dado[5];
     private int[] jogadas = new int[13];
 
-    public void rolarDados(){
+    public void rolarDados(){//rola os 5 dados para a rodada ocorrer.
         for(int i = 0; i < 5; i++){
             dados[i] = new Dado();
             dados[i].roll();
         }
     }
 
-    public String toString(){
+    public String toString(){//tostring para mostrar o resultado dos dados
         return "valores obtidos: "+dados[0].getSideUp()+"-"+dados[1].getSideUp()+"-"+dados[2].getSideUp()+"-"+dados[3].getSideUp()+"-"+dados[4].getSideUp();
     }
 
-    public int validarJogada(int jogadaEscolhida) {
+    public int validarJogada(int jogadaEscolhida) {//valida a jogada escolhida, caso seja invalida retorna 0 e avisa sobre a validade da jogada.
         switch (jogadaEscolhida) {
             case 1://jogada de 1
                 int total=0;
@@ -224,12 +224,19 @@ public class JogoGeneral implements Serializable{
         }
     }
 
-    public void pontuarJogada(int jogadaEscolhid,int total){//jogadaEscolhid referente a jogada escolhida, total referente a pontuacao.
-        System.out.println("Jogada ja escolhida");
+    public void pontuarJogada(int jogadaEscolhid,int total){//jogadaEscolhid referente a jogada escolhida, total referente a pontuacao. Armazena a pontuacao em um vetor para o jogador especifico
+        if(this.jogadas[jogadaEscolhid-1] == 0){
+            this.jogadas[jogadaEscolhid-1] = total;
+            if(total == 0){
+                this.jogadas[jogadaEscolhid-1] = -1;
+            }
+        }
+        else{
+            System.out.println("Jogada ja escolhida!");
+        }
     }
 
     public int[] getJogadas(){
         return jogadas;
     }
 }
-

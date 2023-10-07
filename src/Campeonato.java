@@ -8,7 +8,7 @@ import java.io.ObjectOutputStream;
 public class Campeonato {
     private Jogador[] jogadores = new Jogador[10];
 
-    public void incluirJogador(String n, String tJ){
+    public void incluirJogador(String n, String tJ){//inclui um novo jogador
         for(int i = 0; i < jogadores.length; i++){
             if(jogadores[i] == null){
                 jogadores[i] = new Jogador();
@@ -18,7 +18,7 @@ public class Campeonato {
         }
     }
 
-    public void removerJogador(String n){
+    public void removerJogador(String n){//remove o jogador escolhido atribuindo um espaco nulo ao seu vetor
         for(int i = 0; i < jogadores.length; i++){
             if(jogadores[i].getNome().equals(n)){
                 jogadores[i] = null;
@@ -27,7 +27,7 @@ public class Campeonato {
         }
     }
 
-    public void iniciarCampeonato() throws InterruptedException {
+    public void iniciarCampeonato() throws InterruptedException {//executa a rodada, permite o jogador escolher a sua jogada e informa as jogadas que ja foram escolhidas
         System.out.println("Executando Rodada....");
         Thread.sleep(2000);
         System.out.print("");
@@ -41,10 +41,6 @@ public class Campeonato {
                 System.out.println(jogadorAtual.toString());
     
                 if (a < 13) {
-                    /*System.out.print("1    2    3    4    5    6  7(T) 8(Q) 9(F) 10(S+) 11(S-) 12(G) 13(X)");
-                    System.out.println();
-                    jogadorAtual.mostraJogadasExecutadas();
-                    System.out.println();*/
                     System.out.print("1  2  3  4  5  6  7(T)  8(Q)  9(F) 10(S+)  11(S-)  12(G)  13(X)\n");
                     for(int i = 0; i < jogadores.length; i++){
                         if(jogadores[i] != null){
@@ -73,9 +69,9 @@ public class Campeonato {
     }
     
 
-    public void mostrarCartela() throws InterruptedException{
+    public void mostrarCartela() throws InterruptedException{//mostra a cartela de jogadas durante o jogo
         System.out.println("Gerando Cartela....");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         System.out.print("");
         for(int i = 0; i < jogadores.length; i++){
             if(jogadores[i] != null){
@@ -97,7 +93,7 @@ public class Campeonato {
 
     public void gravar_arquivo() throws InterruptedException{/*Gravar em arquivo*/
         System.out.println("Gerando Arquivo(Jogadores.dat)....");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         System.out.print("");
         File arquivo = new File("jogadores.dat");
         try {
@@ -116,7 +112,7 @@ public class Campeonato {
 
     public void lerDoArquivo() throws InterruptedException{
         System.out.println("Lendo Arquivo(Jogadores.dat)....");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         System.out.print("");
         File arquivo = new File("jogadores.dat");
         try {
