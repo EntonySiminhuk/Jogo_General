@@ -5,7 +5,7 @@ Este é um projeto desenvolvido como trabalho da faculdade para a matéria de Pr
 ## Jogo General
 General é um jogo de dados para dois ou mais jogadores. 
 Para jogar General são necessários cinco dados comuns (hexaédricos) e uma cartela de marcação. 
-O objetivo do jogo ´e marcar o maior número de pontos, através de algumas combinações de resultados nos dados.
+O objetivo do jogo é marcar o maior número de pontos, através de algumas combinações de resultados nos dados.
 <br>
 Para este trabalho, as regras do jogo General serão simplificadas e o campeonato poderá ser realizado desde que exista ao menos um jogador (humano ou máquina). A aplicação poderá executar "n" (indeterminadas) rodadas para os jogadores participantes do Campeonato do Jogo General. 
 Em cada rodada, cada jogador (humano ou máquina), por sua vez, joga os dados e conforme o resultado obtido, marca a jogada prevista em sua cartela. Uma vez marcada, aquela jogada não poderá ser repetida pelo mesmo jogador até o final da rodada.
