@@ -29,14 +29,14 @@ public class Campeonato {
 
     public void iniciarCampeonato() throws InterruptedException {//executa a rodada, permite o jogador escolher a sua jogada e informa as jogadas que ja foram escolhidas
         System.out.println("Executando Rodada....");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         System.out.print("");
         for (int a = 0; a < jogadores.length; a++) {
             Jogador jogadorAtual = jogadores[a];
             if (jogadorAtual != null) {
                 jogadorAtual.jogarDados();
                 System.out.println("Rolando dados para: " + jogadorAtual.getNome());
-                Thread.sleep(2000);
+                Thread.sleep(1000);
                 System.out.println("");
                 System.out.println(jogadorAtual.toString());
     

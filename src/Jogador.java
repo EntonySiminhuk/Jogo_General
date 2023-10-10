@@ -58,12 +58,11 @@ public class Jogador implements Serializable{
                 else{
                     System.out.print("" + jogadasExecutadas[i] + "     ");
                 }
-                System.out.print("" + jogadasExecutadas[i]+ "      ");
             }   
         }
     }
 
-    public void mostraJogadasCartela(int i){
+    public void mostraJogadasCartela(int i){//funcao para mostrar as jogadas estruturada para o formato da cartela
         int[] jogadasExecutadas = jogoG.getJogadas();
         if(i < 9){
             if(jogadasExecutadas[i] == 0 || jogadasExecutadas[i] == -1){
