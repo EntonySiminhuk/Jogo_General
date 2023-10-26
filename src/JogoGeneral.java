@@ -9,6 +9,7 @@ public class JogoGeneral implements Serializable{
             dados[i].roll();
         }
     }
+    
 
     public String toString(){//tostring para mostrar o resultado dos dados
         return "valores obtidos: "+dados[0].getSideUp()+"-"+dados[1].getSideUp()+"-"+dados[2].getSideUp()+"-"+dados[3].getSideUp()+"-"+dados[4].getSideUp();

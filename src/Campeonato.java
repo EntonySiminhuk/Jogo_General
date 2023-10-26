@@ -5,6 +5,7 @@ import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
+
 public class Campeonato {
     private Jogador[] jogadores = new Jogador[10];
 
